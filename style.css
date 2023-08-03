@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 62.5%;
+}
+
+.box {
+    display: flex;
+}
+
+.box1 {
+    background-color: #052905f0;
+    height: 100vh;
+    width: 50vw;
+}
+
+.box1 img {
+    display: grid;
+    place-items: center;
+    width: 40vw;
+    height: 92vh;
+    margin-top: 2rem;
+    margin-left: 4.5rem;
+
+}
+
+.box2 {
+    background-color: #FFF8E1;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+    padding: 3rem 0.8rem;
+
+   flex-wrap: wrap;
+}
+
+.head1 {
+    background-color: black;
+    display: grid;
+    place-items: center;
+    font-size: 5rem;
+    color: teal;
+    padding: 0.5rem 0rem;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    margin: 0.5rem 0rem 0rem 1rem;
+}
+
+.left span {
+
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(212, 111, 100);
+
+}
+
+
+
+
+.right h4 {
+   text-align: center;
+    margin-top: 1rem;
+font-size: 3rem;   
+    
+}
+
+
+
+.button {
+
+   
+    margin: 1rem 2rem 0.8rem 0rem;
+
+}
+.off {
+    background: #000;
+    border: 2px solid brown;
+    color: brown;
+    font-size: 2rem;
+    width: 18rem;
+    height: 4rem;
+ 
+    font-weight: bold;
+}
+
+.con1 {
+    font-size: 11rem;
+}
+
+.con1 span {
+    color: rgb(212, 111, 100);
+    font-size: 7rem;
+}
+
+.con2 {
+   
+    display: flex;
+    justify-content: space-around;
+    padding: 0.2rem 0.4rem;
+}
+
+.left1 {
+    font-weight: bold;
+    font-size: 10rem;
+}
+
+.left1 .span {
+    font-size: 6rem;
+}
+
+.right1 {
+    margin: auto;
+    font-size: 6rem;
+    color: cadetblue;
+   
+}
+
+.right1 span {
+    animation: glowing 1300ms infinite;
+}
+
+.con3 {
+    font-size: 6rem;
+}
+
+.con4{
+    font-size: 1rem;
+}
+
+.btn1 {
+    border: 2px solid brown;
+    font-size: 2rem;
+    border-radius: 10rem;
+    justify-content: center;
+    color: brown;
+    background: #000;
+    width: 18rem;
+    height: 5rem;
+}
+
+
+
+@keyframes glowing {
+    0% {
+        background-color: black;
+        box-shadow: 0 0 5px #2ba805;
+    }
+
+    50% {
+        background-color: burlywood;
+        box-shadow: 0 0 20px #49e819;
+    }
+
+    100% {
+        background-color: black;
+        box-shadow: 0 0 5px #2ba805;
+    }
+}
+footer h1{
+    background-color: rgb(247, 215, 220);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    
+}
+footer span{
+    font-size: 2rem;
+    margin: 0 0.5rem;
+}
+@media  only screen and (max-width:500px) {
+header{
+    width: 50rem;
+}
+.head1{
+    font-size: 4rem;
+}
+.left {
+    margin: 0.5rem 0rem 2rem 0rem;
+}
+
+.left span {
+
+    font-size: 1.8rem;
+}
+.left i{
+    font-size: 0.8rem;
+}
+
+.right h4 {
+   text-align: center;
+    margin-top: 2.5rem;
+font-size: 2rem;   
+    
+}
+.button { 
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+
+}
+.off {
+   
+    font-size: 1.2rem;
+    width: 10rem;
+    height: 3rem;
+ 
+    font-weight: bolder;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+
+}
+.box1,.box2{
+    
+ width: 50rem;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.con1{
+    
+    font-size: 7rem;
+}
+.con1 span{
+    font-size: 5rem;
+}
+.con2 .left1{
+    font-size: 6rem;
+}
+.con2 .left1 span{
+    font-size: 3rem;
+}
+
+.con2 .right1 span{
+    font-size: 2.8rem;
+}
+.con3{
+    font-size: 4rem;
+}
+.con4{
+    font-size: 8rem;
+}
+.btn1{
+    border: 1px solid brown;
+    font-size: 2rem;
+    border-radius: 3rem;
+    justify-content: center;
+   
+    width: 14rem;
+    height: 4rem; 
+}
+.box1 img {
+
+ width: 43rem;
+ margin: 3rem 3rem;
+}
+footer h1{
+    width: 50rem;
+}
+
+
+}
